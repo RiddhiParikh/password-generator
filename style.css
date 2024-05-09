@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:lightblue;
+}
+
+.main{
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;           
+}
+ 
+.container{
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 20px;
+
+}
+.container input{
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+}
+.container i{
+    font-size: 25px;
+}
+#btn{
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
